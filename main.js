@@ -5,7 +5,7 @@ function pagename(){
 let pagina = pagename();
 
 //Selección
-let btnr1 = document.getElementById('ej1')
+let btnr1 = document.getElementById('ej1');
 let btnr2 = document.getElementById('ej2');
 let btnr3 = document.getElementById('ej3');
 
