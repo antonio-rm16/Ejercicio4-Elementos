@@ -6,7 +6,7 @@ function pagename(){
      else{
    return page;}}
 let pagina = pagename();
-
+alert(pagina);
 //Selección
 let btnr1 = document.getElementById('ej1')
 let btnr2 = document.getElementById('ej2');
