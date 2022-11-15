@@ -1,7 +1,10 @@
 function pagename(){
   let ruta = window.location.pathname;
   let page = ruta.substring(ruta.lastIndexOf('/') + 1,ruta.length);
-   return page;}
+    if (page===""){
+      return "index.html";
+     else{
+   return page;}}
 let pagina = pagename();
 
 //Selección
