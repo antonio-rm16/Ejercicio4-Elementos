@@ -1,0 +1,104 @@
+p{
+    margin:0px 0px;
+    padding: 0px opx;
+}
+
+.menu{
+  width: 500px;
+  display: flex;
+  margin: 2px auto;    
+  justify-content: space-between;
+}
+.menu button{
+  border: 2px solid blue;
+  border-radius: 10px;
+  box-shadow: 4px 4px skyblue;
+  background-color: skyblue;
+  font-size: 20px;
+    padding: 5px 30px;
+    color: blue;
+    font-weight: 550;
+}
+button:hover{
+  cursor: pointer;
+  background: steelblue;
+  color: skyblue;
+  border-color: skyblue;
+  box-shadow: 4px 9px steelblue;
+}
+
+.maincontainer{
+    width: 450px;
+    margin: 20px auto;
+    padding: 15px 15px;
+    background-color: hsl(1,0%,90%);
+}
+
+.backg{
+    border-radius: 10px;
+    background-color: white;
+}
+.card{
+    display: flex;
+    padding: 20px 15px 10px 15px;
+    font-family: sans-serif;
+   
+}
+.user{
+    display: flex;
+    align-items: center;
+
+}
+.user img{
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 90%;
+}
+.user p{
+    font-size: 16px;
+    color: hsl(208, 72%, 58%);
+    text-shadow: 1px 1px 1px hsl(180, 75%, 68%);
+    font-weight: 550;
+    margin-left: 10px;
+}
+.leftside{
+    width: 75%;
+    padding-right: 25px;
+}
+.rightside{
+    width: 25%;
+  }
+.rightside img{
+    border-radius: 10px;
+}
+.rightside img{
+    opacity: 80%;
+}
+  .content{
+    margin: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .tags{
+    display: flex;
+    font-size: 15px;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .tags p{
+    letter-spacing: 1px;
+    color: hsl(1, 0%, 75%);
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .tags :first-child{
+    font-size: 12px;
+    font-weight: 550;
+  }
+  .line{
+    border-top: 1px solid hsl(1,0%, 85%);
+    box-shadow: 1px 1px hsl(1,0%, 90%);
+    margin: 0px 15px;
+  }
