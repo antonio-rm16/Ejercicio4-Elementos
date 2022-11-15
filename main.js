@@ -3,7 +3,7 @@ function pagename(){
   let page = ruta.substring(ruta.lastIndexOf('/') + 1,ruta.length);
       return page;}
 let pagina = pagename();
-Window.alert(pagina);
+
 //Selección
 let btnr1 = document.getElementById('ej1')
 let btnr2 = document.getElementById('ej2');
