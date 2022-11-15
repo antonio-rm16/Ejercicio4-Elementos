@@ -1,7 +1,7 @@
 function pagename(){
   let ruta = window.location.pathname;
   let page = ruta.substring(ruta.lastIndexOf('/') + 1,ruta.length);
-    if (page===""){
+    if (page===null){
       return "index.html";
      else{
    return page;}}
