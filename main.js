@@ -1,12 +1,9 @@
 function pagename(){
   let ruta = window.location.pathname;
   let page = ruta.substring(ruta.lastIndexOf('/') + 1,ruta.length);
-    if (page===null){
-      return "index.html";
-     else{
-   return page;}}
+      return page;}
 let pagina = pagename();
-alert(pagina);
+Window.alert(pagina);
 //Selección
 let btnr1 = document.getElementById('ej1')
 let btnr2 = document.getElementById('ej2');
